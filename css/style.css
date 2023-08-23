@@ -1,0 +1,71 @@
+body {
+    background-color: #1364cc;
+    background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+    linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+    background-size: 13px, 29px, 37px, 53px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    width: 14rem;
+}
+
+div {
+    text-align: center;
+    background-color: #87aae4;
+    border-radius: 15px;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0 1.2rem;
+    color: #03281a;
+    background-color: #87aae4;
+    border-radius: 15px;
+}
+
+p {
+    font-size: .88rem;
+    padding-bottom: 0.77rem;
+}
+
+h1 {
+    padding-top: 0.77rem;
+}
+
+ul {
+    padding: 0;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    margin: 1rem 0 1.7rem 0;
+    background-color: #1364cc;
+    padding: 1rem 0;
+    border-radius: 15px;
+    box-shadow: 0 9px #87aae4;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem 3rem;
+}
+
+li:hover {background-color:#03281a}
+
+li:active {
+  background-color:  #03281a;
+  box-shadow: 0 5px #447dd5;
+  transform: translateY(4px); }
